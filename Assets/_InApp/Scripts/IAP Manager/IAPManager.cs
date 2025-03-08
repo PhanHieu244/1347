@@ -32,7 +32,7 @@ public class IAPManager : PersistentSingleton<IAPManager>
             {
                 // do something here to add point value
                 OnPurchaseSuccess?.Invoke();
-            }
+            }//
         });
     }
 }
