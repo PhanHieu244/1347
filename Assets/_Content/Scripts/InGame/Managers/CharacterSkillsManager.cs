@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using _Content.Appmetricas;
 using _Content.Data;
 using _Content.InGame.Characters;
 using _Content.InGame.Characters.Abilities;
@@ -43,8 +42,8 @@ namespace _Content.InGame.Managers
 			var skillsHandler = character.FindAbility<CharacterSkillsHandler>();
 			skillsHandler.UpgradeTalent(skill.Skill);
 
-			AppMetricaEvents.SendUpgradeCharacterEvent(PlayerData.Instance.LevelNumber, PlayerData.Instance.LevelCount,
-				PlayerData.Instance.CurrentCharacterLevel, skill.Skill.AbilityName, skill.Level);
+			/*AppMetricaEvents.SendUpgradeCharacterEvent(PlayerData.Instance.LevelNumber, PlayerData.Instance.LevelCount,
+				PlayerData.Instance.CurrentCharacterLevel, skill.Skill.AbilityName, skill.Level);*/
 		}
 
 		public bool HasSkillToUpgrade()

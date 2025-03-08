@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using System.Linq;
-using _Content.Appmetricas;
 using _Content.Data;
 using _Content.Events;
 using _Content.InGame.Levels;
@@ -130,9 +129,9 @@ namespace _Content.InGame.Managers
 		{
 			PlayerData.Instance.LevelNumber++;
 			PlayerData.Instance.Save();
-			AppMetricaEvents.SendLevelEndEvent(PlayerData.Instance.LevelNumber, PlayerData.Instance.LevelCount,
+			/*AppMetricaEvents.SendLevelEndEvent(PlayerData.Instance.LevelNumber, PlayerData.Instance.LevelCount,
 				_prevLevelInfo?.LevelCaption, 1, LevelResult.Lose, Mathf.RoundToInt(GameplayManager.Instance.GameTimer),
-				EnemyManager.Instance.GetLevelProgressForAnalytics());
+				EnemyManager.Instance.GetLevelProgressForAnalytics());*/
 			ResumeGame();
 			UIManager.Instance.Joystick.HideView();
 			UIManager.Instance.DefeatUi.HideView();
@@ -152,9 +151,9 @@ namespace _Content.InGame.Managers
 		{
 			PlayerData.Instance.LevelNumber++;
 			PlayerData.Instance.Save();
-			AppMetricaEvents.SendLevelEndEvent(PlayerData.Instance.LevelNumber, PlayerData.Instance.LevelCount,
+			/*AppMetricaEvents.SendLevelEndEvent(PlayerData.Instance.LevelNumber, PlayerData.Instance.LevelCount,
 				_prevLevelInfo?.LevelCaption, 1, LevelResult.Lose, Mathf.RoundToInt(GameplayManager.Instance.GameTimer),
-				EnemyManager.Instance.GetLevelProgressForAnalytics());
+				EnemyManager.Instance.GetLevelProgressForAnalytics());*/
 			
 			StopGame();
 			_winFeedback?.PlayFeedbacks();
@@ -222,8 +221,8 @@ namespace _Content.InGame.Managers
 			CameraManager.Instance.ShowGameplayCamera();
 			PlayerData.Instance.LevelCount++;
 			PlayerData.Instance.Save();
-			AppMetricaEvents.SendLevelStartEvent(PlayerData.Instance.LevelNumber, PlayerData.Instance.LevelCount,
-				_prevLevelInfo?.LevelCaption, 1);
+			/*AppMetricaEvents.SendLevelStartEvent(PlayerData.Instance.LevelNumber, PlayerData.Instance.LevelCount,
+				_prevLevelInfo?.LevelCaption, 1);*/
 		}
 
 		public void LoadCurrentLevelScene()
