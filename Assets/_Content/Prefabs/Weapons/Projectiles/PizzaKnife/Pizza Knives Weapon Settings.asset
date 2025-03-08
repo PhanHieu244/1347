@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe12c5a788594615b0fbe8d0d4a53c6e, type: 3}
+  m_Name: Pizza Knives Weapon Settings
+  m_EditorClassIdentifier: 
+  _levels:
+  - Level: 1
+    KnivesCount: 1
+    Damage: 1
+    Cooldown: 5
+    DescriptionInLevelUp: +knife
+  - Level: 2
+    KnivesCount: 2
+    Damage: 1
+    Cooldown: 5
+    DescriptionInLevelUp: +knife
+  - Level: 3
+    KnivesCount: 2
+    Damage: 1
+    Cooldown: 3.5
+    DescriptionInLevelUp: -cooldown
+  - Level: 4
+    KnivesCount: 3
+    Damage: 1
+    Cooldown: 3.5
+    DescriptionInLevelUp: +knife
+  - Level: 5
+    KnivesCount: 3
+    Damage: 1
+    Cooldown: 2.5
+    DescriptionInLevelUp: -cooldown

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ba979531226408290db4233575c3d18, type: 3}
+  m_Name: Weapon_Peeler
+  m_EditorClassIdentifier: 
+  _abilityName: Slicer
+  _abilityCaption: Slicer
+  _abilityDescription: 
+  _unlockedByDefault: 1
+  _abilityIcon: {fileID: 21300000, guid: 57ea28f316b4ac9418cf3f86705b6fec, type: 3}
+  _weapon: {fileID: 9183535027171371668, guid: 6fb4f5db0f875cb46af9307b0de8c1de, type: 3}

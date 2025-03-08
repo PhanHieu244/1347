@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9dd3ce55d664a09b072b30db97dbeab, type: 3}
+  m_Name: Weapon_Boomerang
+  m_EditorClassIdentifier: 
+  _abilityName: Boomerang
+  _abilityCaption: Boomerang
+  _abilityDescription: 
+  _unlockedByDefault: 0
+  _abilityIcon: {fileID: 21300000, guid: e222b60a8b108a3408f98b61f93131b4, type: 3}
+  _weapon: {fileID: 3451014032817888823, guid: 3cf73f71b7b157e448f928603df62b41, type: 3}

@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2828f4a20b064203bf12a2dc0bf8b166, type: 3}
+  m_Name: Level_04_Wave
+  m_EditorClassIdentifier: 
+  WaveCaption: Western
+  TimeFromPrevWaveToStart: 0
+  Duration: 340
+  EnemiesOnLevel:
+  - Time: 0
+    MaxEnemiesCountOnLevel: 7
+    EnemiesInLevels:
+    - EnemyName: pea
+      Percent: 100
+  - Time: 45
+    MaxEnemiesCountOnLevel: 12
+    EnemiesInLevels:
+    - EnemyName: pea
+      Percent: 80
+    - EnemyName: tomato
+      Percent: 20
+  - Time: 90
+    MaxEnemiesCountOnLevel: 18
+    EnemiesInLevels:
+    - EnemyName: pea
+      Percent: 40
+    - EnemyName: tomato
+      Percent: 60
+  - Time: 150
+    MaxEnemiesCountOnLevel: 25
+    EnemiesInLevels:
+    - EnemyName: pea
+      Percent: 45
+    - EnemyName: tomato
+      Percent: 35
+    - EnemyName: pickle
+      Percent: 20
+  - Time: 200
+    MaxEnemiesCountOnLevel: 35
+    EnemiesInLevels:
+    - EnemyName: pickle
+      Percent: 10
+    - EnemyName: pea
+      Percent: 40
+    - EnemyName: tomato
+      Percent: 40
+    - EnemyName: carrot
+      Percent: 10
+  - Time: 250
+    MaxEnemiesCountOnLevel: 45
+    EnemiesInLevels:
+    - EnemyName: pickle
+      Percent: 15
+    - EnemyName: pea
+      Percent: 30
+    - EnemyName: carrot
+      Percent: 20
+    - EnemyName: tomato
+      Percent: 25
+  - Time: 320
+    MaxEnemiesCountOnLevel: 1
+    EnemiesInLevels:
+    - EnemyName: carrot
+      Percent: 100
+  EnemiesBurst:
+  - Time: 100
+    MaxEnemiesCountOnLevel: 40
+    EnemiesInLevels:
+    - EnemyName: pea
+      Percent: 80
+    - EnemyName: tomato
+      Percent: 20
+  - Time: 220
+    MaxEnemiesCountOnLevel: 60
+    EnemiesInLevels:
+    - EnemyName: pea
+      Percent: 50
+    - EnemyName: tomato
+      Percent: 20
+    - EnemyName: carrot
+      Percent: 10
+    - EnemyName: pickle
+      Percent: 15
+  - Time: 310
+    MaxEnemiesCountOnLevel: 40
+    EnemiesInLevels:
+    - EnemyName: pickle
+      Percent: 30
+    - EnemyName: carrot
+      Percent: 20
+    - EnemyName: pea
+      Percent: 30
+    - EnemyName: tomato
+      Percent: 20

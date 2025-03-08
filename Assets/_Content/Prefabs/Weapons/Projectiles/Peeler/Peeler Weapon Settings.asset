@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbdad1c1676a4bfbbb9bb54abec8518e, type: 3}
+  m_Name: Peeler Weapon Settings
+  m_EditorClassIdentifier: 
+  _levels:
+  - Level: 1
+    SlicersCount: 1
+    Damage: 1
+    Cooldown: 4
+    DescriptionInLevelUp: +1 peeler
+  - Level: 2
+    SlicersCount: 2
+    Damage: 1
+    Cooldown: 3.5
+    DescriptionInLevelUp: +1 peeler
+  - Level: 3
+    SlicersCount: 2
+    Damage: 2
+    Cooldown: 3.5
+    DescriptionInLevelUp: +damage
+  - Level: 4
+    SlicersCount: 3
+    Damage: 2
+    Cooldown: 3
+    DescriptionInLevelUp: +1 peeler
+  - Level: 5
+    SlicersCount: 3
+    Damage: 3
+    Cooldown: 3
+    DescriptionInLevelUp: +damage

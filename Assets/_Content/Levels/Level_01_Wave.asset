@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2828f4a20b064203bf12a2dc0bf8b166, type: 3}
+  m_Name: Level_01_Wave
+  m_EditorClassIdentifier: 
+  WaveCaption: GARDEN
+  TimeFromPrevWaveToStart: 0
+  Duration: 200
+  EnemiesOnLevel:
+  - Time: 0
+    MaxEnemiesCountOnLevel: 7
+    EnemiesInLevels:
+    - EnemyName: pea
+      Percent: 100
+  - Time: 45
+    MaxEnemiesCountOnLevel: 12
+    EnemiesInLevels:
+    - EnemyName: pea
+      Percent: 80
+    - EnemyName: tomato
+      Percent: 20
+  - Time: 70
+    MaxEnemiesCountOnLevel: 18
+    EnemiesInLevels:
+    - EnemyName: tomato
+      Percent: 40
+    - EnemyName: pea
+      Percent: 60
+  - Time: 110
+    MaxEnemiesCountOnLevel: 25
+    EnemiesInLevels:
+    - EnemyName: tomato
+      Percent: 40
+    - EnemyName: pea
+      Percent: 40
+    - EnemyName: pickle
+      Percent: 20
+  - Time: 150
+    MaxEnemiesCountOnLevel: 30
+    EnemiesInLevels:
+    - EnemyName: tomato
+      Percent: 30
+    - EnemyName: pea
+      Percent: 30
+    - EnemyName: pickle
+      Percent: 40
+  EnemiesBurst:
+  - Time: 90
+    MaxEnemiesCountOnLevel: 35
+    EnemiesInLevels:
+    - EnemyName: pea
+      Percent: 80
+    - EnemyName: tomato
+      Percent: 20
+  - Time: 180
+    MaxEnemiesCountOnLevel: 60
+    EnemiesInLevels:
+    - EnemyName: pea
+      Percent: 30
+    - EnemyName: tomato
+      Percent: 50
+    - EnemyName: pickle
+      Percent: 20

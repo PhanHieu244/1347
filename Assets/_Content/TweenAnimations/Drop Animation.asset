@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76479b0b679e481ca150aa93e2dd48bb, type: 3}
+  m_Name: Drop Animation
+  m_EditorClassIdentifier: 
+  _xzCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2.4829059
+      outSlope: 2.4829059
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.030981068
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.0055533727
+      outSlope: 0.0055533727
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.09632915
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _yCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.42037076
+      outSlope: 0.42037076
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.10325048
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -1.0320921
+      outSlope: -1.0320921
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.04636711
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _time: 0.7

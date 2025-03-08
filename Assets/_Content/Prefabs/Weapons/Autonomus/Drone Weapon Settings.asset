@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42ee2be9ccdf44da87accc3275668efd, type: 3}
+  m_Name: Drone Weapon Settings
+  m_EditorClassIdentifier: 
+  _levels:
+  - Level: 1
+    Damage: 1
+    LifeTime: 5
+    Cooldown: 7
+    DescriptionInLevelUp: + drone
+  - Level: 2
+    Damage: 1
+    LifeTime: 7
+    Cooldown: 7
+    DescriptionInLevelUp: + lifetime
+  - Level: 3
+    Damage: 1
+    LifeTime: 8
+    Cooldown: 6
+    DescriptionInLevelUp: + lifetime
+  - Level: 4
+    Damage: 2
+    LifeTime: 8
+    Cooldown: 6
+    DescriptionInLevelUp: + demage
+  - Level: 5
+    Damage: 2
+    LifeTime: 10
+    Cooldown: 5
+    DescriptionInLevelUp: + lifetime

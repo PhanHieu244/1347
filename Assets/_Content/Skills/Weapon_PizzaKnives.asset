@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 550e1142914e48c5ba29595fa4502690, type: 3}
+  m_Name: Weapon_PizzaKnives
+  m_EditorClassIdentifier: 
+  _abilityName: pizzaknives
+  _abilityCaption: Pizza Knives
+  _abilityDescription: Pizza Knives
+  _unlockedByDefault: 0
+  _abilityIcon: {fileID: 21300000, guid: 1ac935487d0be784bb5a5b928c4d8077, type: 3}
+  _weapon: {fileID: 5623018275361908841, guid: 65a93c35c67b46142adf640553cea3ab, type: 3}

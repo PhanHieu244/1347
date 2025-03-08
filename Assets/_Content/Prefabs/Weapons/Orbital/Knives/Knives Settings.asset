@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6416634418e4957912c1bbecbb05533, type: 3}
+  m_Name: Knives Settings
+  m_EditorClassIdentifier: 
+  _levels:
+  - Level: 1
+    KnivesCount: 1
+    RotationSpeed: -250
+    Cooldown: 2
+    LifeTime: 4
+    DescriptionInLevelUp: +1 knife
+  - Level: 2
+    KnivesCount: 2
+    RotationSpeed: -250
+    Cooldown: 2
+    LifeTime: 5
+    DescriptionInLevelUp: + 1 knife
+  - Level: 3
+    KnivesCount: 3
+    RotationSpeed: -250
+    Cooldown: 2
+    LifeTime: 6
+    DescriptionInLevelUp: + 1 knife
+  - Level: 4
+    KnivesCount: 4
+    RotationSpeed: -250
+    Cooldown: 1.5
+    LifeTime: 7
+    DescriptionInLevelUp: + 1 knife
+  - Level: 5
+    KnivesCount: 5
+    RotationSpeed: -300
+    Cooldown: 1.5
+    LifeTime: 8
+    DescriptionInLevelUp: + 1 knife
