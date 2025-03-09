@@ -798,7 +798,7 @@ PlayerSettings:
     Stadia: dUI_MANAGER
     Standalone: MOREMOUNTAINS_NICEVIBRATIONS_INSTALLED;dUI_MANAGER
     WebGL: dUI_MANAGER
-    Windows Store Apps: dUI_MANAGER
+    Windows Store Apps: dUI_MANAGER;MOREMOUNTAINS_NICEVIBRATIONS_INSTALLED
     XboxOne: dUI_MANAGER
     iPhone: dUI_MANAGER
     tvOS: dUI_MANAGER
