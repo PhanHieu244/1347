@@ -14,7 +14,7 @@ public class TimerSetting : MonoBehaviour
     private void Start()
     {
         AGameManager.SetTimeStop += OnSetTimer;
-        Hide();
+        Hide();//
     }
 
     private void OnSetTimer(float timer)
